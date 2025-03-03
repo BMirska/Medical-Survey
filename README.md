@@ -15,7 +15,7 @@ With this app, users can:
 #### 🟢 Loading Screen:
 - Loads all essential app styles as global variables (OnVisible property).
 - A timer ensures that all global variables are properly loaded before navigating to the Home Screen.
-
+![Loading Screen](BMirska/Medical-Survey/LoadingScreen.png)
 #### 🏠  Screen 1 'Home Screen':
 - Central navigation panel → Allows users to select the survey type. In this demo, only the "Health Habits" survey is available.
 - Left navigation panel → Navigate to "Complete Another Survey" (in the full version: access different applications and visits). Directly access "View and Edit Surveys" for managing existing surveys.
