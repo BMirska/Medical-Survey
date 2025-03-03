@@ -15,16 +15,18 @@ With this app, users can:
 #### 🟢 Loading Screen:
 - Loads all essential app styles as global variables (OnVisible property).
 - A timer ensures that all global variables are properly loaded before navigating to the Home Screen.
-![Loading Screen](BMirska/Medical-Survey/LoadingScreen.png)
+![Loading Screen](https://github.com/BMirska/Medical-Survey/blob/main/LoadingScreen.png)
 #### 🏠  Screen 1 'Home Screen':
 - Central navigation panel → Allows users to select the survey type. In this demo, only the "Health Habits" survey is available.
 - Left navigation panel → Navigate to "Complete Another Survey" (in the full version: access different applications and visits). Directly access "View and Edit Surveys" for managing existing surveys.
 - Right panel → Displays real-time statistics: Number of registered patients (= Number of completed surveys).
+![Home Screen](https://github.com/BMirska/Medical-Survey/blob/main/HomeScreen.png)
 #### 👤 Screen I Basic
 - Users register a new patient by entering Patient Name and Patient ID (both required). If the Patient ID does not exist in SharePoint → The user can proceed. If the Patient ID already exists → The user cannot proceed and sees a message: "The survey for this patient has already been completed! Please go to the 'Review and Edit Surveys' tab."
 - Upon clicking "→" (Next button):
 - The Patient ID is stored as a global variable for use in the next screens.
 - A progress indicator at the bottom shows how many steps remain.
+![Screen I](https://github.com/BMirska/Medical-Survey/blob/main/Screen1.png)
 #### 📋 Screen II and III 
 - Various input methods:
 ✅ Text fields
@@ -32,7 +34,8 @@ With this app, users can:
 ✅ Dropdowns
 ✅ Combo boxes (for multiple selections)
 - Top section displays the current patient ID (from the global variable).
-
+![Screen II](https://github.com/BMirska/Medical-Survey/blob/main/Screen2.png)
+![Screen III](https://github.com/BMirska/Medical-Survey/blob/main/Screen3.png)
 #### ✅ Screen IV (Submit Survey)
 - The user provides the final answers and clicks "Send the Answers".
 What happens next?
@@ -42,12 +45,14 @@ What happens next?
 4️⃣ The user is redirected to the Home Screen.
 If an error occurs, the app displays a message prompting the user to contact an administrator.
 Progress indicator at the bottom shows survey completion status.
+![Screen IV](https://github.com/BMirska/Medical-Survey/blob/main/Screen4.png)
 #### ❌ User Can Cancel the Survey at Any Step
 - Clicking the "X" button redirects to a confirmation screen: "Returning to the main screen will result in data loss. Do you want to cancel the survey?"
 - If the user chooses to cancel:
 - The survey progress is reset.
 - The patient is not added to the SharePoint list.
 - The app navigates back to the Home Screen.
+![Screen IV](https://github.com/BMirska/Medical-Survey/blob/main/Screen%20Message.png)
 #### Screen Edit and View Surveys
 - If a survey already exists for a patient, the user can edit the form here.
 - Left panel (Gallery) → Displays all existing surveys with a search function (by Patient Name or ID).
@@ -57,7 +62,7 @@ When a user submits an edit, the app updates the SharePoint list with:
 ✅ The edited answers
 ✅ The user’s credentials (who made the change)
 ✅ The modification date
-
+![Screen IV](https://github.com/BMirska/Medical-Survey/blob/main/Screen%20Edit%20View.png)
 ### 🚀 Summary
 The Medical Survey App streamlines patient survey management with:
 ✅ Easy patient registration
