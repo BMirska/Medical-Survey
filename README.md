@@ -1,3 +1,16 @@
+# Before you start
+You can download a ZIP file along with a CSV file ("Medical Survey"). Before using the app, you need to create a SharePoint list.
+
+How to Set Up the SharePoint List:
+- Select your desired SharePoint site.
+- Click "Add new list" → "From existing CSV file".
+- Choose the provided CSV file.
+- This will automatically create all the necessary columns for you, making the list ready for integration with the app.
+
+- Connecting the App to SharePoint:
+- The app uses Environmental Variables for SharePoint connections.
+- When launching the app, you will be prompted to select your own SharePoint list.
+Enjoy using the Medical Survey app! 🚀
 # Medical-Survey
 The Medical Survey is a Power Platform application built with Power Apps, connected to a SharePoint list to streamline patient survey management and data collection.
 
