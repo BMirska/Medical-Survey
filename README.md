@@ -42,7 +42,7 @@ What happens next?
 If an error occurs, the app displays a message prompting the user to contact an administrator.
 Progress indicator at the bottom shows survey completion status.
 #### ❌ User Can Cancel the Survey at Any Step
--Clicking the "X" button redirects to a confirmation screen: "Returning to the main screen will result in data loss. Do you want to cancel the survey?"
+- Clicking the "X" button redirects to a confirmation screen: "Returning to the main screen will result in data loss. Do you want to cancel the survey?"
 - If the user chooses to cancel:
 - The survey progress is reset.
 - The patient is not added to the SharePoint list.
