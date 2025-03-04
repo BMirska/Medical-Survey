@@ -25,7 +25,7 @@ With this app, users can:
 ✅ Manage already completed surveys
 ✅ Prevent duplicate entries and redirect users to the editing section
 
-#### 🟢 Loading Screen:
+#### ⏳ Loading Screen:
 - Loads all essential app styles as global variables (OnVisible property).
 - A timer ensures that all global variables are properly loaded before navigating to the Home Screen.
 ![Loading Screen](https://github.com/BMirska/Medical-Survey/blob/main/LoadingScreen.png)
@@ -66,7 +66,7 @@ Progress indicator at the bottom shows survey completion status.
 - The patient is not added to the SharePoint list.
 - The app navigates back to the Home Screen.
 ![Screen IV](https://github.com/BMirska/Medical-Survey/blob/main/Screen%20Message.png)
-#### Screen Edit and View Surveys
+#### ✏️ Screen Edit and View Surveys
 - If a survey already exists for a patient, the user can edit the form here.
 - Left panel (Gallery) → Displays all existing surveys with a search function (by Patient Name or ID).
 - Right panel → Shows survey responses for the selected patient.
